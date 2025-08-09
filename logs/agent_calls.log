@@ -1,0 +1,14 @@
+2025-08-09 14:04:03 | INFO | req=- route=- ip=- ua=- agent=- | Inline payload check triggered. Content-Length: 52 bytes
+2025-08-09 14:04:03 | INFO | req=f87134f0-6ca6-4201-8204-3d7dab06d078 route=/agent/run ip=testclient ua=testclient agent=- | Request start
+2025-08-09 14:04:03 | INFO | req=f87134f0-6ca6-4201-8204-3d7dab06d078 route=/agent/run ip=testclient ua=testclient agent=- | Received input: {'name': 'Logger Test', 'query': 'Refill my inventory'}
+2025-08-09 14:04:03 | WARNING | req=f87134f0-6ca6-4201-8204-3d7dab06d078 route=/agent/run ip=testclient ua=testclient agent=- | No match found. Using fallback.
+2025-08-09 14:04:03 | INFO | req=- route=- ip=- ua=- agent=- | Inline payload check triggered. Content-Length: 47 bytes
+2025-08-09 14:04:03 | INFO | req=a9b558a7-4822-4dd8-bb0e-979acfb38881 route=/agent/run ip=testclient ua=testclient agent=- | Request start
+2025-08-09 14:04:03 | INFO | req=a9b558a7-4822-4dd8-bb0e-979acfb38881 route=/agent/run ip=testclient ua=testclient agent=- | Received input: {'name': 'Loop User', 'query': 'Refill inventory'}
+2025-08-09 14:04:03 | WARNING | req=a9b558a7-4822-4dd8-bb0e-979acfb38881 route=/agent/run ip=testclient ua=testclient agent=- | No match found. Using fallback.
+2025-08-09 14:04:05 | INFO | req=- route=- ip=- ua=- agent=- | Inline payload check triggered. Content-Length: 47 bytes
+2025-08-09 14:04:05 | INFO | req=62d30934-618e-434b-8bbe-b3472e959320 route=/agent/run ip=testclient ua=testclient agent=- | Request start
+2025-08-09 14:04:05 | INFO | req=62d30934-618e-434b-8bbe-b3472e959320 route=/agent/run ip=testclient ua=testclient agent=- | Received input: {'name': 'Loop User', 'query': 'Refill inventory'}
+2025-08-09 14:04:05 | WARNING | req=62d30934-618e-434b-8bbe-b3472e959320 route=/agent/run ip=testclient ua=testclient agent=- | No match found. Using fallback.
+2025-08-09 14:04:05 | INFO | req=dc4fe726-8770-466b-bf32-9ddbd7c9ae93 route=/admin/ping ip=testclient ua=testclient agent=- | Request start
+2025-08-09 14:04:06 | INFO | req=189a91e1-e7de-42ba-9486-ea5febc1ec9b route=/admin/ping ip=testclient ua=testclient agent=- | Request start
