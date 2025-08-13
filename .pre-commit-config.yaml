@@ -1,0 +1,7 @@
+repos:
+  - repo: https://github.com/zricethezav/gitleaks
+    rev: v8.18.4
+    hooks:
+      - id: gitleaks
+        name: gitleaks (prevent committing secrets)
+        args: ["protect", "--staged", "--redact", "--config=.gitleaks.toml"]

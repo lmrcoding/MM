@@ -1,0 +1,20 @@
+title = "Metro Match gitleaks config"
+
+[allowlist]
+description = "Paths and placeholder strings to ignore"
+paths = [
+  '''^logs/''',
+  '''^\.venv/''',
+  '''^node_modules/''',
+  '''^coverage/''',
+  '''^htmlcov/''',
+  '''^dist/''',
+  '''^build/''',
+  '''.*\.pyc$''',
+  '''.*\.(png|jpg|jpeg|gif|webp|zip|tar\.gz)$'''
+]
+# NOTE: In gitleaks v8, put placeholder strings directly in this array.
+regexes = [
+  "PASTE_NEW_PUBLISHABLE_KEY_HERE",
+  "PASTE_NEW_SECRET_KEY_HERE"
+]
