@@ -1,0 +1,53 @@
+# ---- Python basics ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.dist-info/
+.Python
+
+# ---- Virtual envs ----
+.venv/
+venv/
+env/
+
+# ---- IDEs / Editors ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- Logs & coverage ----
+logs/
+*.log
+.coverage
+coverage/
+htmlcov/
+
+# ---- Cache & temp ----
+.cache/
+.mypy_cache/
+.pytest_cache/
+tmp/
+temp/
+
+# ---- Build / wheel ----
+build/
+dist/
+site/
+wheelhouse/
+
+# ---- Environment files (never commit secrets) ----
+.env
+.env.*
+!.env.example  # (optional) keep a redacted example for onboarding
+
+# ---- Node (if present for UI) ----
+node_modules/
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
